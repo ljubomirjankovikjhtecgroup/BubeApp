@@ -6,17 +6,20 @@
 //
 
 import UIKit
-import BubesPrinter
+import BubesFramework // that is included in the Swift Package BubesPrinter
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let myPrinter = BubesPrinter()
         let text = "Hello World"
-        let textToPrint = myPrinter.printWithSmiley(text: text)
-        print(textToPrint)
+        
+        let othersPrinter = BubesPrinter(password: "Bratanac")
+        print(othersPrinter.printWithSmiley(text: text))
+        
+        let myPrinter = BubesPrinter(password: "Bube")
+        print(myPrinter.printWithSmiley(text: text))
     }
 
 

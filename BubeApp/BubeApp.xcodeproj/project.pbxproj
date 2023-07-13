@@ -13,7 +13,7 @@
 		210580112A5FEAD6006638B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2105800F2A5FEAD6006638B5 /* Main.storyboard */; };
 		210580132A5FEAD7006638B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210580122A5FEAD7006638B5 /* Assets.xcassets */; };
 		210580162A5FEAD7006638B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210580142A5FEAD7006638B5 /* LaunchScreen.storyboard */; };
-		21CD22FA2A6008F100AA4ED2 /* BubesPrinter in Frameworks */ = {isa = PBXBuildFile; productRef = 21CD22F92A6008F100AA4ED2 /* BubesPrinter */; };
+		218F55322A601E3900990265 /* BubesFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 218F55312A601E3900990265 /* BubesFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21CD22FA2A6008F100AA4ED2 /* BubesPrinter in Frameworks */,
+				218F55322A601E3900990265 /* BubesFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = BubeApp;
 			packageProductDependencies = (
-				21CD22F92A6008F100AA4ED2 /* BubesPrinter */,
+				218F55312A601E3900990265 /* BubesFramework */,
 			);
 			productName = BubeApp;
 			productReference = 210580062A5FEAD6006638B5 /* BubeApp.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 21057FFD2A5FEAD6006638B5;
 			packageReferences = (
-				21CD22F82A6008F100AA4ED2 /* XCRemoteSwiftPackageReference "BubesPrinter" */,
+				218F55302A601E3900990265 /* XCRemoteSwiftPackageReference "BubesPrinter" */,
 			);
 			productRefGroup = 210580072A5FEAD6006638B5 /* Products */;
 			projectDirPath = "";
@@ -368,21 +368,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		21CD22F82A6008F100AA4ED2 /* XCRemoteSwiftPackageReference "BubesPrinter" */ = {
+		218F55302A601E3900990265 /* XCRemoteSwiftPackageReference "BubesPrinter" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ljubomirjankovikjhtecgroup/BubesPrinter.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.3;
+				minimumVersion = 0.0.7;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		21CD22F92A6008F100AA4ED2 /* BubesPrinter */ = {
+		218F55312A601E3900990265 /* BubesFramework */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 21CD22F82A6008F100AA4ED2 /* XCRemoteSwiftPackageReference "BubesPrinter" */;
-			productName = BubesPrinter;
+			package = 218F55302A601E3900990265 /* XCRemoteSwiftPackageReference "BubesPrinter" */;
+			productName = BubesFramework;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
