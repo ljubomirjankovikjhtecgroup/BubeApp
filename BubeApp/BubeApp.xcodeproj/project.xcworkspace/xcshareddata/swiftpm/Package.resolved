@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ljubomirjankovikjhtecgroup/BubesPrinter.git",
       "state" : {
-        "revision" : "f285ca4bfdcd4c640de497598bc6b4c545d9498b",
-        "version" : "0.0.3"
+        "revision" : "a1e5ee258561bd169511a9cb6168c2d08dfffe25",
+        "version" : "0.0.6"
       }
     }
   ],
