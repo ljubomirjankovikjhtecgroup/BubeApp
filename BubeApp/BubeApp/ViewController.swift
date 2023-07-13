@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import BubesPrinter
 
 class ViewController: UIViewController {
 

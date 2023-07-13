@@ -13,7 +13,7 @@
 		210580112A5FEAD6006638B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2105800F2A5FEAD6006638B5 /* Main.storyboard */; };
 		210580132A5FEAD7006638B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210580122A5FEAD7006638B5 /* Assets.xcassets */; };
 		210580162A5FEAD7006638B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210580142A5FEAD7006638B5 /* LaunchScreen.storyboard */; };
-		210580202A5FEB45006638B5 /* BubesPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2105801F2A5FEB45006638B5 /* BubesPrinter.swift */; };
+		21CD22FA2A6008F100AA4ED2 /* BubesPrinter in Frameworks */ = {isa = PBXBuildFile; productRef = 21CD22F92A6008F100AA4ED2 /* BubesPrinter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,6 @@
 		210580122A5FEAD7006638B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210580152A5FEAD7006638B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210580172A5FEAD7006638B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2105801F2A5FEB45006638B5 /* BubesPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubesPrinter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CD22FA2A6008F100AA4ED2 /* BubesPrinter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,6 @@
 				210580092A5FEAD6006638B5 /* AppDelegate.swift */,
 				2105800B2A5FEAD6006638B5 /* SceneDelegate.swift */,
 				2105800D2A5FEAD6006638B5 /* ViewController.swift */,
-				2105801F2A5FEB45006638B5 /* BubesPrinter.swift */,
 				2105800F2A5FEAD6006638B5 /* Main.storyboard */,
 				210580122A5FEAD7006638B5 /* Assets.xcassets */,
 				210580142A5FEAD7006638B5 /* LaunchScreen.storyboard */,
@@ -86,6 +85,9 @@
 			dependencies = (
 			);
 			name = BubeApp;
+			packageProductDependencies = (
+				21CD22F92A6008F100AA4ED2 /* BubesPrinter */,
+			);
 			productName = BubeApp;
 			productReference = 210580062A5FEAD6006638B5 /* BubeApp.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 21057FFD2A5FEAD6006638B5;
+			packageReferences = (
+				21CD22F82A6008F100AA4ED2 /* XCRemoteSwiftPackageReference "BubesPrinter" */,
+			);
 			productRefGroup = 210580072A5FEAD6006638B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,7 +148,6 @@
 			files = (
 				2105800E2A5FEAD6006638B5 /* ViewController.swift in Sources */,
 				2105800A2A5FEAD6006638B5 /* AppDelegate.swift in Sources */,
-				210580202A5FEB45006638B5 /* BubesPrinter.swift in Sources */,
 				2105800C2A5FEAD6006638B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +366,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21CD22F82A6008F100AA4ED2 /* XCRemoteSwiftPackageReference "BubesPrinter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ljubomirjankovikjhtecgroup/BubesPrinter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21CD22F92A6008F100AA4ED2 /* BubesPrinter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21CD22F82A6008F100AA4ED2 /* XCRemoteSwiftPackageReference "BubesPrinter" */;
+			productName = BubesPrinter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 21057FFE2A5FEAD6006638B5 /* Project object */;
 }
