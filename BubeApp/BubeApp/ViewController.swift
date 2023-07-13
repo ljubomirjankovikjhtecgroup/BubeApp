@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let myPrinter = BubesPrinter()
+        let text = "Hello World"
+        let textToPrint = myPrinter.printWithSmiley(text: text)
+        print(textToPrint)
     }
 
 

@@ -13,6 +13,7 @@
 		210580112A5FEAD6006638B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2105800F2A5FEAD6006638B5 /* Main.storyboard */; };
 		210580132A5FEAD7006638B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210580122A5FEAD7006638B5 /* Assets.xcassets */; };
 		210580162A5FEAD7006638B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210580142A5FEAD7006638B5 /* LaunchScreen.storyboard */; };
+		210580202A5FEB45006638B5 /* BubesPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2105801F2A5FEB45006638B5 /* BubesPrinter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		210580122A5FEAD7006638B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210580152A5FEAD7006638B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210580172A5FEAD7006638B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2105801F2A5FEB45006638B5 /* BubesPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubesPrinter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				210580092A5FEAD6006638B5 /* AppDelegate.swift */,
 				2105800B2A5FEAD6006638B5 /* SceneDelegate.swift */,
 				2105800D2A5FEAD6006638B5 /* ViewController.swift */,
+				2105801F2A5FEB45006638B5 /* BubesPrinter.swift */,
 				2105800F2A5FEAD6006638B5 /* Main.storyboard */,
 				210580122A5FEAD7006638B5 /* Assets.xcassets */,
 				210580142A5FEAD7006638B5 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				2105800E2A5FEAD6006638B5 /* ViewController.swift in Sources */,
 				2105800A2A5FEAD6006638B5 /* AppDelegate.swift in Sources */,
+				210580202A5FEB45006638B5 /* BubesPrinter.swift in Sources */,
 				2105800C2A5FEAD6006638B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
